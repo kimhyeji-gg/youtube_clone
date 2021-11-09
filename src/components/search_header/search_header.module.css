@@ -2,10 +2,13 @@
   display: flex;
   height: 4rem;
   padding: 0.8em 1em;
-  background: black;
-  color: white;
+  background: white;
+  color: black;
 }
-
+.title{
+  margin-left:8px;
+  font-size:25px;
+}
 .logo {
   display: flex;
   align-items: center;
@@ -14,16 +17,19 @@
 
 .input {
   flex-basis: 100%;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   outline: 0;
 }
 
 .button {
-  background-color: darkgrey;
+  background-color:whitesmoke;
   outline: 0;
+  border:1px solid darkgray;
+  border-left: 0;
 }
 
 .buttonImg {
   height: 100%;
   padding: 0.5em 0.2em;
 }
+

@@ -22,11 +22,12 @@ const SearchHeader = ({ onSearch }) => {
         <img className={styles.img} src="/images/logo.png" alt="logo" />
         <h1 className={styles.title}>Youtube</h1>
       </div>
+      
       <input
         ref={inputRef}
         className={styles.input}
         type="search"
-        placeholder="Search..."
+        placeholder="  검색"
         onKeyPress={onKeyPress}
       />
       <button className={styles.button} type="submit" onClick={onClick}>
@@ -36,6 +37,7 @@ const SearchHeader = ({ onSearch }) => {
           alt="search"
         />
       </button>
+      
     </header>
   );
 };
